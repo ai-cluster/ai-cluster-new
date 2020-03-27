@@ -132,23 +132,23 @@ project:
 ########################################### Mission ###################################
 mission:
   enable : true
-  subtitle : Our Goal
-  title : Company Mission
-  content : Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor didunt laboris nisi ut aliquip ex ea commodo consequat.
-  image : images/chart.png
+  subtitle : Мы коммерциализируем
+  title : наукоемкие технологии (deep tech)
+  content : Мы развиваем и внедряем объясняющий Семантический Искусственный Интеллект. Решение предлагаемое машиной должно быть понятно человеку.
+  image : images/chart_1.png
   accordion:
-    - title : Our Company Mission
-      description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
+    - title : Наша цель
+      description : Создать платформу для коммерциализации наукоемких технологий (deep tech) в области Семантического Искусственного Интеллекта (трансфер технологий).
       
-    - title : Our Company Vision
-      description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
+    - title : Наш подход
+      description : Мы опираемся на методику интеграции образования, науки и производства - "Треугольник Лаврентьева", разработанный еще в СССР академиком М.А. Лаврентьевым, всемирно-известным ученым, основателем Новосибирского Научного центра.
       
-    - title : Our Company Goal
-      description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
+    - title : Инвестиционные инструменты
+      description : Треугольник Лаврентьева доказал свою эффективность еще в СССР. Но мы хотим дополнить его современными финансовыми инструментами. Мы уже сотрудничаем с фондом KAMAFLOW и будем рады новым инвестиционным партнерам.
 
 ##################################### Promo video ####################################
 promo_video:
-  enable : true
+  enable : false
   title : "We Are Alawys <br> Comited"
   bg_image : "images/background/promo-video.jpg"
   video_URL : "https://www.youtube.com/watch?v=jrkvirglgaQ"
@@ -156,7 +156,7 @@ promo_video:
 
 ##################################### call to action #################################
 testimonial:
-  enable : true
+  enable : false
   subtitle : Clients
   title : What client Say
   image : images/client.png
@@ -177,10 +177,10 @@ testimonial:
 cta:
   enable : true
   bg_image : "images/background/cta.jpg"
-  title : "Biztrox give the smart solution for your business"
+  title : "Искусственный Интеллект. Цифровизация бизнеса. Конкурентные преимущества."
   button:
     enable : true
-    label : "get a quote"
+    label : "Контакты"
     link : "contact"
       
 ########################################## blog ####################################

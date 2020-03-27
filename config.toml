@@ -145,9 +145,9 @@ mailchimp_form_name = "b_ceb1e37d329147705560caae4_ba8ba1e3b3" # replace this co
 
 # nav Button
 [params.nav_button]
-label = "Контакты"
-enable = true
-link = "contact"
+  enable = true
+  label = "contact us"
+  link = "contact"
 
 # preloader
 [params.preloader]
