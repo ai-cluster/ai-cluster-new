@@ -1,30 +1,30 @@
 ---
-title: "Andrew Givson"
+title: "Свириденко Дмитрий Иванович"
 date: 2018-09-29T14:42:31+06:00
-description : "This is meta description"
-designation: CEO
+description : "Свириденко Дмитрий Иванович"
+designation: http://math.nsc.ru
 image : images/team/team-page-4.jpg
 bg_image: images/background/page-title.jpg
 cv : "#"
-bio : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat irure dolor in reprehender.
+bio : дата рождения 05/10/1947, город Новосибирск, страна РФ
 
 # information
 information:
-  - label : Projects Done
+  - label : научные статьи
     icon : ti-notepad
-    data : 32
+    data : 130
     
   - label : Success Rate
     icon : ti-medall
     data : 96%
     
-  - label : Experience Of
+  - label : Стаж преподавателя
     icon : ti-flag-alt
-    data : 13 Years
+    data : более 40 лет (НГУ, НГУЭУ, САФБД)
     
-  - label : From
+  - label : Откуда
     icon : ti-location-pin
-    data : San Diago. NY
+    data : Новосибирск
 
 # contacts
 contacts:
@@ -66,10 +66,14 @@ social:
 type : team
 ---
 
-#### Work History  & Feedback
+#### специализация:
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis.
+математика, прикладная математика, информатика
 
-#### Profile Analytics
+#### уникальные компетенции:
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+прикладная логика, искусственный интеллект, инновационный менеджмент, управление проектами
+
+#### научные разработки:
+
+автор оригинального задачного подхода к искусственному интеллекту, автор логико-математической концепции семантического программирования/моделирования

@@ -69,7 +69,7 @@ slider:
 
 ########################################## Service ####################################
 service:
-  enable : true
+  enable : false
   # service item comes from "content/service" folder 
 
 
@@ -131,20 +131,20 @@ project:
 
 ########################################### Mission ###################################
 mission:
-  enable : true
-  subtitle : Мы коммерциализируем
-  title : наукоемкие технологии (deep tech)
-  content : Мы развиваем и внедряем объясняющий Семантический Искусственный Интеллект. Решение предлагаемое машиной должно быть понятно человеку.
+  enable : false
+  subtitle : 
+  title : Мы предоставляем
+  content : 
   image : images/chart_1.png
   accordion:
-    - title : Наша цель
-      description : Создать платформу для коммерциализации наукоемких технологий (deep tech) в области Семантического Искусственного Интеллекта (трансфер технологий).
+    - title : Возможности
+      description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
       
-    - title : Наш подход
-      description : Мы опираемся на методику интеграции образования, науки и производства - "Треугольник Лаврентьева", разработанный еще в СССР академиком М.А. Лаврентьевым, всемирно-известным ученым, основателем Новосибирского Научного центра.
+    - title : Duis aute i rure dolor
+      description : Duis aute i rure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
       
-    - title : Инвестиционные инструменты
-      description : Треугольник Лаврентьева доказал свою эффективность еще в СССР. Но мы хотим дополнить его современными финансовыми инструментами. Мы уже сотрудничаем с фондом KAMAFLOW и будем рады новым инвестиционным партнерам.
+    - title : Возможности для Экспертов
+      description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
 
 ##################################### Promo video ####################################
 promo_video:

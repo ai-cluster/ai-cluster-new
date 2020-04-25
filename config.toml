@@ -1,4 +1,5 @@
 ######################### default configuration ###############################
+
 baseURL = "https://ai-cluster.ru/"
 title = "ai-cluster"
 theme = "biztrox-hugo"
@@ -44,24 +45,32 @@ DefaultContentLanguage = ["ru-RU"]
   URL = "plugins/google-map/gmap.js"
 
 
+#################################### HTML inside markdown ##################################
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 #################################### navigation ##################################
+
 [menu]
     
   # main menu
-  [[menu.main]]
-  name = "О нас"
-  weight = 1
-  hasChildren = true
+  # [[menu.main]]
+  # name = "О нас"
+  # weight = 1
+  # hasChildren = true
 
-    [[menu.main]]
-    parent = "О нас"
-    name = "Наша миссия"
-    URL = "about"
+    # [[menu.main]]
+    # parent = "О нас"
+    # name = "Наша миссия"
+    # URL = "about"
 
-    [[menu.main]]
-    parent = "О нас"
-    name = "Проекты"
-    URL = "service"
+    # [[menu.main]]
+    # parent = "О нас"
+    # name = "Проекты"
+    # URL = "service"
   
   # [[menu.main]]
   # name = "Service"
@@ -69,14 +78,24 @@ DefaultContentLanguage = ["ru-RU"]
   # weight = 2
   
   [[menu.main]]
-  name = "Новости/документы"
+  name = "Тренды/Новости"
   URL = "blog"
-  weight = 3
+  weight = 2
   
-  # [[menu.main]]
-  # name = "Team"
-  # URL = "team"
-  # weight = 4
+  [[menu.main]]
+  name = "Эксперты"
+  URL = "team"
+  weight = 3
+
+  [[menu.main]]
+  name = "Готовые решения"
+  URL = "project"
+  weight = 4
+
+  [[menu.main]]
+  name = "Партнеры"
+  URL = "team"
+  weight = 5
   
   # [[menu.main]]
   # name = "Pricing"
@@ -84,24 +103,24 @@ DefaultContentLanguage = ["ru-RU"]
   # weight = 5
   
   [[menu.main]]
-  name = "СМИ"
-  URL = "project"
-  weight = 4
-
-  [[menu.main]]
-  weight = 2
-  name = "События"
+  weight = 6
+  name = "Мероприятия"
   hasChildren = true
 
     [[menu.main]]
-    parent = "События"
+    parent = "Мероприятия"
     name = "Конференция, февраль 2020"
     URL = "https://ai-cluster.ru/conf/"
 
   [[menu.main]]
-  name = "Контакты"
-  URL = "contact"
-  weight = 5
+  name = "О компании"
+  URL = "about"
+  weight = 7
+
+  # [[menu.main]]
+  # name = "Контакты"
+  # URL = "contact"
+  # weight = 8
 
   # footer menu
   # [[menu.footer]]
@@ -145,7 +164,7 @@ mailchimp_form_name = "b_ceb1e37d329147705560caae4_ba8ba1e3b3" # replace this co
 
 # nav Button
 [params.nav_button]
-  enable = true
+  enable = false
   label = "contact us"
   link = "contact"
 
@@ -188,29 +207,29 @@ map_longitude = "83.090508"
 map_marker = "images/marker.png"
 
 ############################ client logo slider #############################
-# [[params.clients_logo_slider]]
-# logo = "images/client-logo/client-logo-1.png"
-# link = "#"
+[[params.clients_logo_slider]]
+logo = "images/client-logo/client-logo-1.png"
+link = "#"
 
-# [[params.clients_logo_slider]]
-# logo = "images/client-logo/client-logo-2.png"
-# link = "https://examplesite.com"
+[[params.clients_logo_slider]]
+logo = "images/client-logo/client-logo-2.png"
+link = "https://examplesite.com"
 
-# [[params.clients_logo_slider]]
-# logo = "images/client-logo/client-logo-3.png"
-# link = "#"
+[[params.clients_logo_slider]]
+logo = "images/client-logo/client-logo-3.png"
+link = "#"
 
-# [[params.clients_logo_slider]]
-# logo = "images/client-logo/client-logo-4.png"
-# link = "https://examplesite.com"
+[[params.clients_logo_slider]]
+logo = "images/client-logo/client-logo-4.png"
+link = "https://examplesite.com"
 
-# [[params.clients_logo_slider]]
-# logo = "images/client-logo/client-logo-5.png"
-# link = "#"
+[[params.clients_logo_slider]]
+logo = "images/client-logo/client-logo-5.png"
+link = "#"
 
-# [[params.clients_logo_slider]]
-# logo = "images/client-logo/client-logo-3.png"
-# link = "https://examplesite.com"
+[[params.clients_logo_slider]]
+logo = "images/client-logo/client-logo-3.png"
+link = "https://examplesite.com"
 
 ########################### social icon #####################################
 # [[params.social]]
