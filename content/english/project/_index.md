@@ -1,10 +1,10 @@
 ---
-title: "Our Project"
+title: "Проекты/Готовые решения"
 date: 2018-07-12T18:19:33+06:00
 bg_image: images/background/page-title.jpg
-description : "This is meta description"
+description : "Проекты/Готовые решения"
 ---
 
-## Our Projects
+## Наши проекты
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua.
+AI cluster реализует проекты в различных отраслях: производство, наука, медицина, образование, государственное управление и прочее. Все наши проекты - синергия научных разработок ( НИОКР) и практических задач.

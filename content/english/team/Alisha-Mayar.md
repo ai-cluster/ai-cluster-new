@@ -1,15 +1,15 @@
 ---
-title: "Alisha Mayar"
+title: "Колонин Антон Германович"
 date: 2018-09-29T14:43:10+06:00
-description : "This is meta description"
-designation: CEO
+description : "Колонин Антон Германович"
+designation: http://aigents.com/
 image : images/team/team-page-3.jpg
-cv : "#"
-bio : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat irure dolor in reprehender.
+cv : "http://webstructor.net/personal/anton_kolonin_resume_eng.pdf"
+bio : дата рождения 12 февраля 1965, город Новосибирск, Россия
 
 # information
 information:
-  - label : Projects Done
+  - label : Проектов сделано
     icon : ti-notepad
     data : 32
     
@@ -17,13 +17,13 @@ information:
     icon : ti-medall
     data : 96%
     
-  - label : Experience Of
+  - label : Опыт работы
     icon : ti-flag-alt
     data : 13 Years
     
-  - label : From
+  - label : Откуда
     icon : ti-location-pin
-    data : San Diago. NY
+    data : Новосибирск
 
 # contacts
 contacts:
@@ -65,10 +65,40 @@ social:
 type : team
 ---
 
-#### Work History  & Feedback
+#### Специализация
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis.
+Разработка ПО, ИИ и распределенных систем
 
-#### Profile Analytics
+#### Уникальные компетенции
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+PROGRAMMING LANGUAGES: Java, Python, C++, C, C#, SQL, UML, XML,
+HTML/DHTML/CSS, Visual Basic, JavaScript, PHP, Lisp, Gupta SQL-Windows, Transact-
+SQL, PL-SQL, Pascal, Dbase, FoxBase, Clipper, Clarion, COBOL, Fortran, Assembler,
+Conversagent BuddyScript, Perl, PHP.
+SOFTWARE: JDK, Microsoft Visual Studio, GCC/G++, Sun Forte Workshop, Borland
+C/C++, Watcom C++, InstallSHIELD, Gupta SQL-Windows, ER-Win, Rational Rose,
+Bachman CASE, Microsoft Office, Visio Drawing, Together J, Conversagent, Apache
+HTTPD, Tomcat, IIS, Verity K2, Visual Cafe, JBuilder, Kawa, Eclipse, Visual Source Safe,
+SVN, CVS, GIT, Allegro Lisp, Drupal, Link Grammar.
+TECHNOLOGIES/PROTOCOLS: TCP/IP, SMTP, HTTP, CGI, RMI, XML DOM/SAX,
+ODBC/JDBC, Ajax, ActiveX/COM/DCOM, DirectX, SmartHeap, STL, MFC, WIN32,
+J2EE, Java 3D, ASIO, Windows Mobile, Android, JQuery, Amazon Cloud, Google Cloud
+DATABASE: Oracle SQL Server, MS/SQL Server, MySQL, Postgre SQL, Interbase SQL
+Server, C-Tree, Btrieve, Allegro Cache OODB, MongoDB OS: WINDOWS
+95/98/2000/NT/XP/CE/Mobile, UNIX (Linux, Solaris, FreeBSD, AIX, Android, Mac OS X,
+RHEL/CentOS, Ubuntu)
+OTHER: OOA/OOD, data/signal processing, 2D/3D graphics, mobile technologies, artificial
+intelligence, pattern recognition, data mining, machine learning, natural language processing,
+genetic programming, neural nets, business/financial accounting, native Russian, fluent
+spoken English, remote communication skills and experience.
+ссылка на портфолио
+http://webstructor.net/personal/anton_kolonin_resume_eng.pdf
+http://webstructor.net/personal/anton_kolonin_projects.pdf
+научные статьи
+http://webstructor.net/personal/anton_kolonin_resume_eng.pdf
+научные разработки
+http://aigents.com/en/references.html
+опыт проведения обучающих программ оф лайн
+опыт проведения обучающих программ он лайн
+https://siberai.blogspot.com/
+https://siberai.blogspot.com/

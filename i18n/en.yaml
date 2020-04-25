@@ -1,17 +1,17 @@
 - id: nav_button
-  translation: get a quote
+  translation: Контакты
 - id: service_subtitle
   translation: Best Service
 - id: service_title
   translation: Service We Provide
 - id: project_subtitle
-  translation: Our Works
+  translation: Готовые решения
 - id: project_title
-  translation: Latest Projects
+  translation: Проекты
 - id: blog_subtitle
-  translation: Latest News
+  translation: Тренды
 - id: blog_title
-  translation: Company News
+  translation: Новости
 - id: services
   translation: Services
 - id: quick_links
@@ -19,7 +19,7 @@
 - id: contact_us
   translation: Contact Us
 - id: contact_form
-  translation: Contact Form
+  translation: Для писем
 - id: submit
   translation: Submit
 - id: buy_now
@@ -27,7 +27,7 @@
 - id: service_brochure
   translation: Service Brochure
 - id: download_pdf
-  translation: Download pdf
+  translation: Загрузить pdf
 - id: opening_hours
   translation: Opening Hours
 - id: contact_info
@@ -35,7 +35,7 @@
 - id: follow_on_social
   translation: Follow on Social
 - id: cv
-  translation: Professional CV
+  translation: Портфолио
 - id: overview
   translation: Overview
 - id: project_name
@@ -49,6 +49,6 @@
 - id: all
   translation: All
 - id: posted_by
-  translation: Posted By
+  translation: от
 - id: share
   translation: Share

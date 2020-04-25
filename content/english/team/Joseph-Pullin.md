@@ -1,12 +1,12 @@
 ---
-title: "Joseph Pullin"
+title: "Витяев Евгений Евгеньевич"
 date: 2018-09-29T14:42:51+06:00
-description : "This is meta description"
-designation: CEO
+description : "Витяев Евгений Евгеньевич"
+designation: http://www.math.nsc.ru/AP/ScientificDiscovery/index_rus.html
 image : images/team/team-page-5.jpg
 bg_image: images/background/page-title.jpg
-cv : "#"
-bio : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat irure dolor in reprehender.
+cv : "http://www.math.nsc.ru/AP/ScientificDiscovery/pages/Vityaev_rus.html"
+bio : дата рождения 10.07.1948, город Ош, страна Киргизия
 
 # information
 information:
@@ -39,14 +39,14 @@ contacts:
 
 # skill
 skill:
-  - label : Branding
-    percentage : 85%
+  - label : опыт проведения обучающих программ оф лайн
+    percentage : 
     
-  - label : Consulting
-    percentage : 90%
+  - label : Курс «Базы данных и Экспертные Системы»
+    percentage : 
     
-  - label : Business
-    percentage : 75%
+  - label : опыт проведения обучающих программ он лайн
+    percentage : 
 
 # social links
 social:
@@ -66,10 +66,13 @@ social:
 type : team
 ---
 
-#### Work History  & Feedback
+#### специализация
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis.
+Математика, Искусственный Интеллект, Интеллектуальный Анализ Данных
 
-#### Profile Analytics
+#### уникальные компетенции:
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+специалист в области Искусственного Интеллекта, Интеллектуального Анализа Данных и Когнитивных науках
+> научные статьи http://www.math.nsc.ru/AP/ScientificDiscovery/pages/Theory_rus.html
+
+> научные разработки http://www.math.nsc.ru/AP/ScientificDiscovery/pages/Brain%20activity%20principals_rus.html

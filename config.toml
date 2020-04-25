@@ -1,15 +1,17 @@
 ######################### default configuration ###############################
-baseURL = "http://examplesite.com"
-title = "Biztrox"
+
+baseURL = "https://ai-cluster.ru/"
+title = "ai-cluster"
 theme = "biztrox-hugo"
 # post pagination
 paginate = "6"
 # post excerpt
 summaryLength = "10"
 # disqus short name
-disqusShortname = "biztrox" # get your shortname form here : https://disqus.com
+disqusShortname = "ai-cluster" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = [] # desable language from here
+disableLanguages = ["fr"] # desable language from here
+DefaultContentLanguage = ["ru-RU"]
 
 ############################# Plugins ##############################
 [params.plugins]
@@ -43,94 +45,128 @@ disableLanguages = [] # desable language from here
   URL = "plugins/google-map/gmap.js"
 
 
+#################################### HTML inside markdown ##################################
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 #################################### navigation ##################################
+
 [menu]
     
   # main menu
-  [[menu.main]]
-  name = "About"
-  URL = "about"
-  weight = 1
+  # [[menu.main]]
+  # name = "О нас"
+  # weight = 1
+  # hasChildren = true
+
+    # [[menu.main]]
+    # parent = "О нас"
+    # name = "Наша миссия"
+    # URL = "about"
+
+    # [[menu.main]]
+    # parent = "О нас"
+    # name = "Проекты"
+    # URL = "service"
+  
+  # [[menu.main]]
+  # name = "Service"
+  # URL = "service"
+  # weight = 2
   
   [[menu.main]]
-  name = "Service"
-  URL = "service"
+  name = "Тренды/Новости"
+  URL = "blog"
   weight = 2
   
   [[menu.main]]
-  name = "Blog"
-  URL = "blog"
-  weight = 3
-  
-  [[menu.main]]
-  name = "Team"
+  name = "Эксперты"
   URL = "team"
-  weight = 4
-  
-  [[menu.main]]
-  name = "Pricing"
-  URL = "pricing"
-  weight = 5
-  
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 6
+  weight = 3
 
   [[menu.main]]
-  weight = 7
-  name = "Pages"
+  name = "Готовые решения"
+  URL = "project"
+  weight = 4
+
+  [[menu.main]]
+  name = "Партнеры"
+  URL = "team"
+  weight = 5
+  
+  # [[menu.main]]
+  # name = "Pricing"
+  # URL = "pricing"
+  # weight = 5
+  
+  [[menu.main]]
+  weight = 6
+  name = "Мероприятия"
   hasChildren = true
 
     [[menu.main]]
-    parent = "Pages"
-    name = "Project"
-    URL = "project"
+    parent = "Мероприятия"
+    name = "Конференция, февраль 2020"
+    URL = "https://ai-cluster.ru/conf/"
+
+  [[menu.main]]
+  name = "О компании"
+  URL = "about"
+  weight = 7
+
+  # [[menu.main]]
+  # name = "Контакты"
+  # URL = "contact"
+  # weight = 8
 
   # footer menu
-  [[menu.footer]]
-  name = "Legal"
-  URL = "#"
-  weight = 1
+  # [[menu.footer]]
+  # name = "Legal"
+  # URL = "#"
+  # weight = 1
   
-  [[menu.footer]]
-  name = "Sitemap"
-  URL = "#"
-  weight = 2
+  # [[menu.footer]]
+  # name = "Sitemap"
+  # URL = "#"
+  # weight = 2
   
-  [[menu.footer]]
-  name = "Privacy Policy"
-  URL = "#"
-  weight = 3
+  # [[menu.footer]]
+  # name = "Privacy Policy"
+  # URL = "#"
+  # weight = 3
   
-  [[menu.footer]]
-  name = "Terms & Conditions"
-  URL = "#"
-  weight = 4
+  # [[menu.footer]]
+  # name = "Terms & Conditions"
+  # URL = "#"
+  # weight = 4
 
 
 ########################### default parameters #################################
 [params]
-logo = "images/logo.png"
-logo_white = "images/logo-footer.png"
-mail = "info@companyname.com"
-mobile = "1234565523"
+logo = "images/logo-1-my.png"
+logo_white = "images/logo-footer-my.png"
+mail = "info@ai-cluster.ru"
+# mobile = "1234565523"
 # Meta data
-description = "Airspace Hugo theme"
-author = "themefisher"
+description = "АНО-Информационно-Семантическое Общество"
+author = "ai-cluster"
 # contact form
 contact_form_action = "#"
 # Google Analitycs
-google_analitycs_id = "Your ID"
+google_analitycs_id = "UA-150816518-1"
 
 # mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+mailchimp_form_action = "https://eyeline.us3.list-manage.com/subscribe/post?u=ceb1e37d329147705560caae4&amp;id=ba8ba1e3b3" # replace this url with yours
+mailchimp_form_name = "b_ceb1e37d329147705560caae4_ba8ba1e3b3" # replace this code with yours
 
 # nav Button
 [params.nav_button]
-enable = true
-link = "contact"
+  enable = false
+  label = "contact us"
+  link = "contact"
 
 # preloader
 [params.preloader]
@@ -142,32 +178,32 @@ preloader = "images/preloader.gif"
 icon = "ti-mobile"
 
   [[params.contacts.contact]]
-  contact_item = "+88 0123 456 789"
+  contact_item = "+7-962-826-60-65"
 
-  [[params.contacts.contact]]
-  contact_item = "+88 987 654 3210"
+  # [[params.contacts.contact]]
+  # contact_item = "+88 987 654 3210"
 
 [[params.contacts]]
 icon = "ti-email"
 
   [[params.contacts.contact]]
-  contact_item = "info@biztrox.com"
+  contact_item = "info@ai-cluster.ru"
 
-  [[params.contacts.contact]]
-  contact_item = "biztrox@email.com"
+  # [[params.contacts.contact]]
+  # contact_item = "biztrox@email.com"
   
 [[params.contacts]]
 icon = "ti-map-alt"
 
   [[params.contacts.contact]]
-  contact_item = "24/B Garden Street. <br> Northambia, Weals, UK"
+  contact_item = "Мусы Джалиля, 3/1 <br> Россия, Новосибирск"
 
 ############################ google map #####################################
 [params.gmap]
 enable = true
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAStWCjwOyD8iNfQL41bfIjXHW076NxW9s"
+map_latitude = "54.863372"
+map_longitude = "83.090508"
 map_marker = "images/marker.png"
 
 ############################ client logo slider #############################
@@ -196,43 +232,44 @@ logo = "images/client-logo/client-logo-3.png"
 link = "https://examplesite.com"
 
 ########################### social icon #####################################
-[[params.social]]
-icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+# [[params.social]]
+# icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+# link = "#"
 
-[[params.social]]
-icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+# [[params.social]]
+# icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+# link = "#"
 
-[[params.social]]
-icon = "ti-vimeo-alt" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+# [[params.social]]
+# icon = "ti-vimeo-alt" # themify icon pack : https://themify.me/themify-icons
+# link = "#"
 
-[[params.social]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+# [[params.social]]
+# icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+# link = "#"
 
 
 [Languages]
   
-  ################################### English language #####################################
+  ################################### Russian language #####################################
   [Languages.en]
   languageName = "En"
-  languageCode = "en-us"
+  languageCode = "ru-RU"
+  # languageCode = "en-us"
   contentDir = "content/english"
   weight = 1
-  home = "Home"
+  home = "Главная"
 
   # footer
   [Languages.en.params.footer]
-  content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim."
+  content = "AI-кластер – надежный фундамент для наукоемких проектов (deep tech)"
 
   # subscribe
-  subscribe = "Subscribe Us"
-  subscribe_content = "Lorem ipsum dolor sit amet, consect etur adipisicing. elit sed do eiusmod."
+  subscribe = "Подпишитесь на новости"
+  subscribe_content = "АНО - Информационно-семантическое общество по развитию математических исследований"
 
   # copyright
-  copyright = "Copyright &copy; 2019 a hugo theme by [themefisher.com](https://themefisher.com)"
+  copyright = "ai-cluster.ru &copy; 2020"
 
 
 
