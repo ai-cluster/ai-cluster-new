@@ -131,20 +131,20 @@ project:
 
 ########################################### Mission ###################################
 mission:
-  enable : false
+  enable : true
   subtitle : 
   title : Мы предоставляем
   content : 
   image : images/chart_1.png
   accordion:
-    - title : Возможности
-      description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
+    - title : Возможности для разработчиков цифровых решений
+      description : возможность продвижения и продажи решений среди максимально заинтересованных и готовых покупать заказчиков; возможность получения консультации или экспертизы от экспертов-практиков мирового уровня; «упаковку» решения для продвижения; возможность участия в профильных обучающих мероприятиях он-лайн и оф-лайн
       
-    - title : Duis aute i rure dolor
-      description : Duis aute i rure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
+    - title : Возможности для заказчиков цифровых решений
+      description : возможность получить рабочие цифровые решения, полностью готовые к внедрению по разумной стоимости; возможность использования новейших научных разработок, в том числе искусственного интеллекта для повышения эффективности бизнес-процессов, производительности труда и оптимизации производства; создание цифровых решений персонализировано под задачи заказчика от разработки до внедрения и сопровождения; возможность получить эксклюзивную консультацию или экспертизу от экспертов-практиков мирового уровня; возможность заказать разработку технического задания
       
-    - title : Возможности для Экспертов
-      description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
+    - title : Возможности для Экспертов в сфере цифровых решений, в том числе искусственного интеллекта
+      description : возможность прямого представления научных разработок заинтересованным участникам рынка; возможность участия в экспертном сообществе, обмена информацией; монетизация разработок и экспертных знаний без дополнительных вложений
 
 ##################################### Promo video ####################################
 promo_video:

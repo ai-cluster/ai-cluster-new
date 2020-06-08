@@ -16,6 +16,10 @@
 {{ partial "mission.html" . }}
 {{ end }}
 
+{{ if $data.about.cta.enable }}
+{{ partial "cta.html" . }}
+{{ end }}
+
 {{ if $data.about.funfacts.enable }}
 {{ partial "funfacts.html" . }}
 {{ end }}
