@@ -1,1 +1,2 @@
-﻿hugo -b https://ai-cluster.ru/ai-cluster-new-pub/
+﻿rem
+hugo.exe -b https://ai-cluster.ru/ai-cluster-new-pub/

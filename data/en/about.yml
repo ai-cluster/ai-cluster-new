@@ -22,9 +22,18 @@ ceo:
 
 ########################################### Mission ###################################
 mission:
-  enable : false
+  enable : true
   # mission content comes from "data/*/homepage.yml" file
 
+##################################### call to action #################################
+cta:
+  enable : true
+  bg_image : "images/background/cta.jpg"
+  title : "СВЯЗАТЬСЯ С НАМИ"
+  button:
+    enable : true
+    label : "Наши контакты"
+    link : "contact"
 
 ###################################### funfacts ####################################
 funfacts: 
