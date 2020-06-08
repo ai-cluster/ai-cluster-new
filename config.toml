@@ -57,65 +57,145 @@ DefaultContentLanguage = ["ru-RU"]
 [menu]
     
   # main menu
-  # [[menu.main]]
-  # name = "О нас"
-  # weight = 1
-  # hasChildren = true
+  [[menu.main]]
+  name = "Об AI-cluster"
+  weight = 1
+  hasChildren = true
 
-    # [[menu.main]]
-    # parent = "О нас"
-    # name = "Наша миссия"
-    # URL = "about"
+    [[menu.main]]
+    parent = "Об AI-cluster"
+    name = "Миссия"
+    URL = "about"
 
-    # [[menu.main]]
-    # parent = "О нас"
-    # name = "Проекты"
-    # URL = "service"
-  
-  # [[menu.main]]
-  # name = "Service"
-  # URL = "service"
-  # weight = 2
+    [[menu.main]]
+    parent = "Об AI-cluster"
+    name = "Структура"
+    hasChildren = true
+
+      [[menu.main]]
+      parent = "Структура"
+      name = "ИТ компании"
+      URL = "#"
+
+      [[menu.main]]
+      parent = "Структура"
+      name = "Университеты"
+      URL = "#"
+
+      [[menu.main]]
+      parent = "Структура"
+      name = "Научные и исследовательские институты"
+      URL = "#"            
+
+    [[menu.main]]
+    parent = "Об AI-cluster"
+    name = "Международные связи"
+    URL = "#"
   
   [[menu.main]]
-  name = "Тренды/Новости"
-  URL = "blog"
+  name = "Экспертиза"
+  hasChildren = true
   weight = 2
-  
+
+      [[menu.main]]
+      parent = "Экспертиза"
+      name = "Отрасли"
+      URL = "#"
+
+      [[menu.main]]
+      parent = "Экспертиза"
+      name = "Продукты/Решения"
+      URL = "#"
+
+      [[menu.main]]
+      parent = "Экспертиза"
+      name = "Эксперты"
+      URL = "#"
+
+      [[menu.main]]
+      parent = "Экспертиза"
+      name = "Экспертные советы"
+      URL = "#"
+
   [[menu.main]]
-  name = "Эксперты"
-  URL = "team"
+  name = "Сервисы"
+  hasChildren = true
   weight = 3
 
-  [[menu.main]]
-  name = "Готовые решения"
-  URL = "project"
-  weight = 4
+      [[menu.main]]
+      parent = "Сервисы"
+      name = "Разработка решения на основе ИИ"
+      URL = "#"
 
+      [[menu.main]]
+      parent = "Сервисы"
+      name = "Проектирование встроенных систем на основе ИИ"
+      URL = "#"
+
+      [[menu.main]]
+      parent = "Сервисы"
+      name = "Технический аудит предприятий"
+      URL = "#"
+
+      [[menu.main]]
+      parent = "Сервисы"
+      name = "Аудит безопасности"
+      URL = "#"                                              
+  
   [[menu.main]]
-  name = "Партнеры"
-  URL = "team"
-  weight = 5
+  name = "Новости"
+  URL = "blog"
+  weight = 4
   
   # [[menu.main]]
-  # name = "Pricing"
-  # URL = "pricing"
+  # name = "Эксперты"
+  # URL = "team"
+  # weight = 3
+
+  # [[menu.main]]
+  # name = "Готовые решения"
+  # URL = "project"
+  # weight = 4
+
+  # [[menu.main]]
+  # name = "Партнеры"
+  # URL = "team"
   # weight = 5
   
+  # # [[menu.main]]
+  # # name = "Pricing"
+  # # URL = "pricing"
+  # # weight = 5
+  
   [[menu.main]]
-  weight = 6
+  weight = 5
   name = "Мероприятия"
   hasChildren = true
 
     [[menu.main]]
     parent = "Мероприятия"
-    name = "Конференция, февраль 2020"
+    name = "Конференции"
     URL = "https://ai-cluster.ru/conf/"
 
-  [[menu.main]]
-  name = "О компании"
-  URL = "about"
-  weight = 7
+    [[menu.main]]
+    parent = "Мероприятия"
+    name = "Научные семинары"
+    URL = "#"
+
+    [[menu.main]]
+    parent = "Мероприятия"
+    name = "Прикладные семинары"
+    URL = "#"
+
+    [[menu.main]]
+    parent = "Мероприятия"
+    name = "Вебинары"
+    URL = "#"            
+
+  # [[menu.main]]
+  # name = "О компании"
+  # URL = "about"
+  # weight = 7
 
   # [[menu.main]]
   # name = "Контакты"
@@ -164,8 +244,8 @@ mailchimp_form_name = "b_ceb1e37d329147705560caae4_ba8ba1e3b3" # replace this co
 
 # nav Button
 [params.nav_button]
-  enable = false
-  label = "contact us"
+  enable = true
+  label = "Контакты"
   link = "contact"
 
 # preloader
