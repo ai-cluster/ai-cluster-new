@@ -27,13 +27,13 @@
 - id: service_brochure
   translation: Service Brochure
 - id: download_pdf
-  translation: Загрузить pdf
+  translation: Загрузить документ
 - id: opening_hours
   translation: Opening Hours
 - id: contact_info
-  translation: Contact Information
+  translation: Контакты
 - id: follow_on_social
-  translation: Follow on Social
+  translation: Соцсети
 - id: cv
   translation: Портфолио
 - id: overview
