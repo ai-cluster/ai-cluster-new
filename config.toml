@@ -110,7 +110,7 @@ DefaultContentLanguage = ["ru-RU"]
       [[menu.main]]
       parent = "Экспертиза"
       name = "Эксперты"
-      URL = "#"
+      URL = "team"
 
       [[menu.main]]
       parent = "Экспертиза"
