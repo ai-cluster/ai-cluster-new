@@ -21,7 +21,7 @@
 - id: contact_form
   translation: Для писем
 - id: submit
-  translation: Submit
+  translation: Отправить
 - id: buy_now
   translation: Buy Now
 - id: service_brochure
