@@ -66,11 +66,14 @@ DefaultContentLanguage = ["ru-RU"]
     parent = "Об AI-cluster"
     name = "Миссия"
     URL = "about"
+    weight = 1
 
     [[menu.main]]
     parent = "Об AI-cluster"
     name = "Структура"
     hasChildren = true
+    weight = 2
+    URL = "under_construction"
 
       [[menu.main]]
       parent = "Структура"
@@ -90,7 +93,8 @@ DefaultContentLanguage = ["ru-RU"]
     [[menu.main]]
     parent = "Об AI-cluster"
     name = "Международные связи"
-    URL = "#"
+    URL = "under_construction"
+    weight = 3
   
   [[menu.main]]
   name = "Экспертиза"
@@ -100,12 +104,12 @@ DefaultContentLanguage = ["ru-RU"]
       [[menu.main]]
       parent = "Экспертиза"
       name = "Отрасли"
-      URL = "#"
+      URL = "under_construction"
 
       [[menu.main]]
       parent = "Экспертиза"
       name = "Продукты/Решения"
-      URL = "#"
+      URL = "under_construction"
 
       [[menu.main]]
       parent = "Экспертиза"
@@ -115,7 +119,7 @@ DefaultContentLanguage = ["ru-RU"]
       [[menu.main]]
       parent = "Экспертиза"
       name = "Экспертные советы"
-      URL = "#"
+      URL = "under_construction"
 
   [[menu.main]]
   name = "Сервисы"
@@ -125,22 +129,22 @@ DefaultContentLanguage = ["ru-RU"]
       [[menu.main]]
       parent = "Сервисы"
       name = "Разработка решения на основе ИИ"
-      URL = "#"
+      URL = "under_construction"
 
       [[menu.main]]
       parent = "Сервисы"
       name = "Проектирование встроенных систем на основе ИИ"
-      URL = "#"
+      URL = "under_construction"
 
       [[menu.main]]
       parent = "Сервисы"
       name = "Технический аудит предприятий"
-      URL = "#"
+      URL = "under_construction"
 
       [[menu.main]]
       parent = "Сервисы"
       name = "Аудит безопасности"
-      URL = "#"                                              
+      URL = "under_construction"                                              
   
   [[menu.main]]
   name = "Новости"
@@ -180,17 +184,17 @@ DefaultContentLanguage = ["ru-RU"]
     [[menu.main]]
     parent = "Мероприятия"
     name = "Научные семинары"
-    URL = "#"
+    URL = "under_construction"
 
     [[menu.main]]
     parent = "Мероприятия"
     name = "Прикладные семинары"
-    URL = "#"
+    URL = "under_construction"
 
     [[menu.main]]
     parent = "Мероприятия"
     name = "Вебинары"
-    URL = "#"            
+    URL = "under_construction"            
 
   # [[menu.main]]
   # name = "О компании"
