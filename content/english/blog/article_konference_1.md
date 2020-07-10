@@ -12,8 +12,8 @@ caseStudy : '#'
 filterCategories: Искусственный-интеллект, Цифровизация
 author: Концерн «Автоматика»
 brochureURL: https://www.ao-avtomatika.ru/media/news/kontsern-avtomatika-predstavil-reshenie-dlya-povysheniya-kachestva-upravleniya-biznesom/
-categories: ["Company News"]
-tags: ["Advice"]
+categories: ["СМИ"]
+tags: ["news"]
 type: post
 ---
 

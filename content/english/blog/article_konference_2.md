@@ -14,8 +14,8 @@ caseStudy : '#'
 filterCategories: Искусственный-интеллект, Цифровизация
 author: ТАСС, информационное агентство
 brochureURL: https://tass.ru/press/9465
-categories: ["Company News"]
-tags: ["Advice"]
+categories: ["СМИ"]
+tags: ["news"]
 type: post
 ---
 
