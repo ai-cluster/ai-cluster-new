@@ -14,8 +14,8 @@ caseStudy : '#'
 filterCategories: Искусственный-интеллект, Цифровизация
 author: АО «Коммерсантъ»
 brochureURL: https://www.kommersant.ru/doc/4275848
-categories: ["Company News"]
-tags: ["Advice"]
+categories: ["СМИ"]
+tags: ["news"]
 type: post
 ---
 
